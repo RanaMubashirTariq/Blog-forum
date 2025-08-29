@@ -109,9 +109,9 @@ export default function HeaderSubsection() {
     <>
       <header
         ref={headerRef}
-        className="flex flex-col w-full items-center relative bg-black border-b border-[#262626] fixed top-0 left-0  z-50"
-      >
-        <div className="flex items-center justify-center gap-2.5 px-6 py-5 max-[1500px]:py-4 max-[500px]:px-[3] w-full bg-black border-b border-[#262626]">
+        className="flex flex-col w-full items-center bg-black border-b border-[#262626] fixed top-0 left-0  z-50"
+      > 
+        <div className=" flex items-center justify-center gap-2.5 px-6 py-5 max-[1500px]:py-4 max-[500px]:px-[3] w-full bg-black border-b border-[#262626]">
           <div className="text-[#98989a] text-lg max-[1500px]:text-base max-[1000px]:text-sm max-[767px]:text-[12px] max-[767px]:leading-[24px] max-[500px]:text-[10px] leading-[27px]">
             Subscribe to our Newsletter For New &amp; latest Blogs and Resources
           </div>
@@ -167,7 +167,7 @@ export default function HeaderSubsection() {
             {menuOpen ? <XIcon className="w-6 h-6 text-white" /> : <MenuIcon className="w-6 h-6 text-white" />}
           </button>
 
-          <Button className="hidden min-[1020px]:inline-flex cursor-pointer transform transition-transform duration-300 hover:scale-90 px-5 py-[14px] bg-[#a29bfe] hover:bg-[#a29bfe]/90 rounded-[10px]">
+          <Button className="hidden h-auto min-[1020px]:inline-flex cursor-pointer transform transition-transform duration-300 hover:scale-90 px-5 py-[14px] bg-[#a29bfe] hover:bg-[#a29bfe]/90 rounded-[10px]">
             <div className="text-[#141414] text-lg max-[1500px]:text-base">
               Contact Us
             </div>
@@ -176,7 +176,7 @@ export default function HeaderSubsection() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="block min-[1020px]:hidden w-full bg-black border-t border-[#262626]">
+          <div className="block  min-[1020px]:hidden w-full bg-black border-t border-[#262626]">
             <ul className="flex flex-col gap-4 p-4">
               {navigationItems.map((item, index) => (
                 <li key={index}>
