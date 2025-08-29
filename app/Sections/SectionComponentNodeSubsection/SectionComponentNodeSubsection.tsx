@@ -43,14 +43,14 @@ export default function SectionComponentNodeSubsection  ()  {
   ];
 
   return (
-    <section className="w-full h-auto relative pl-[162px] max-[1700px]:pl-[50px] max-[767px]:px-[25px] pt-[110px] max-[1000px]:pt-[40px]">
+    <section className="w-full h-auto relative pl-[162px] max-[1700px]:pl-[50px] max-[767px]:px-[25px] pt-[110px] max-[1000px]:pt-[200px] max-[767px]:pt-[150px] max-[344px]:pt-[170px]">
     <div className="flex flex-col w-full max-w-[893px] max-[1500px]:max-w-[650px] max-[1100px]:max-w-[450px] max-[1000px]:max-w-[390px] max-[767px]:max-w-[100%]  items-start gap-[30px] max-[767px]:gap-5">
-      <header className=" flex flex-col items-start gap-[27px] max-[767px]:gap-5 relative  z-11">
+      <header className=" flex flex-col items-start gap-[27px] max-[767px]:gap-5 max-[500px]:gap-3 relative  z-11">
         <h1 className="w-full  font-Kumbh font-medium text-[#666666] text-[30px] max-[1500px]:text-[24px] max-[1000px]:text-[20px] max-[767px]:text-[16px]  tracking-[-3%] leading-[120%]">
           Your Journey to Tomorrow Begins Here
         </h1>
 
-        <div className="flex flex-col gap-5 w-full items-start relative">
+        <div className="flex flex-col gap-5  max-[500px]:gap-3 w-full items-start relative">
           <h2 className="w-full   font-Kumbh font-medium text-[#a29bfe] text-[70px] max-[1500px]:text-[58px] max-[1100px]:text-[40px] max-[1000px]:text-[36px] max-[767px]:text-[28px]  tracking-[-3%] leading-[120%]">
             Explore the Frontiers of Artificial Intelligence
           </h2>
@@ -64,8 +64,8 @@ export default function SectionComponentNodeSubsection  ()  {
         </div>
       </header>
 
-      <div className="flex flex-col max-w-[573px] items-start gap-[30px] relative z-10">
-        <div className="flex flex-col items-start gap-[30px] max-[767px]:gap-5 relative w-full">
+      <div className="flex flex-col max-w-[573px] items-start gap-[30px] max-[767px]:gap-5 relative z-10">
+        <div className="flex flex-col items-start gap-[30px] max-[767px]:gap-5 max-[767px]:gap-3 relative w-full">
           <div className="inline-flex items-start p-2.5 relative rounded-[100px]">
             {profileImages.map((image, index) => (
               <img
@@ -135,7 +135,7 @@ export default function SectionComponentNodeSubsection  ()  {
           </div>
         </div>
             <img
-              className="absolute w-[1070px] max-[1500px]:w-[900px] max-[1500px]:h-[915px] max-[1100px]:h-[862px] max-[1300px]:w-[700px] max-[1000px]:w-[400px] max-[1000px]:h-[771px]  max-[800px]:h-[630px] h-[965px] max-[767px]:hidden top-0 right-0 z-0"
+              className="absolute w-[1070px] max-[1500px]:w-[900px] max-[1500px]:h-[915px] max-[1100px]:h-[862px] max-[1300px]:w-[700px] max-[1000px]:w-[400px] max-[1000px]:h-[805px] max-[1000px]:top-[150px]  max-[800px]:h-[642px] h-[965px] max-[767px]:hidden top-0 right-0 z-0"
               alt="Freepik assistant"
               src='/freepik-assistant.png'
             />

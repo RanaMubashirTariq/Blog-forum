@@ -109,7 +109,7 @@ export default function HeaderSubsection() {
     <>
       <header
         ref={headerRef}
-        className="flex flex-col w-full items-center bg-black border-b border-[#262626] fixed top-0 left-0  z-50"
+        className="flex flex-col w-full items-center bg-black border-b border-[#262626] fixed top-0 left-0  z-50 "
       > 
         <div className=" flex items-center justify-center gap-2.5 px-6 py-5 max-[1500px]:py-4 max-[500px]:px-[3] w-full bg-black border-b border-[#262626]">
           <div className="text-[#98989a] text-lg max-[1500px]:text-base max-[1000px]:text-sm max-[767px]:text-[12px] max-[767px]:leading-[24px] max-[500px]:text-[10px] leading-[27px]">
