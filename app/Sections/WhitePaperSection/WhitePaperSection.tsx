@@ -6,7 +6,7 @@ import { Card, CardContent } from "../../components/ui/card";
 
 
 
-export default function (){
+export default function WhitepaperSection(){
 
     const ebookUsers = [
         { src: "/img-1.png", alt: "Image" },
