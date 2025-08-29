@@ -85,7 +85,7 @@ export default function Home() {
           
 
           {/* part-2 */}
-          <div className="w-[452px] h-[537px] max-[500px]:w-[200px] max-[500px]:h-[350px] object-cover absolute top-[7194px] max-[1500px]:top-[6600px] max-[1100px]:top-[8600px] max-[767px]:top-[9600px] max-[500px]:top-[10400px] max-[370px]:top-[11200px]    left-0    
+          <div className="w-[452px] h-[537px] max-[800px]:w-[200px] max-[800px]:h-[350px] object-cover absolute top-[7194px] max-[1500px]:top-[6600px] max-[1100px]:top-[8600px] max-[1000px]:top-[7600px] max-[830px]:top-[8000px]   max-[767px]:top-[9800px] max-[500px]:top-[10300px] max-[400px]:top-[10400px] max-[370px]:top-[11200px]    left-0    
           bg-[url(/group-250.png)] 
      bg-cover bg-center 
      blur-[30px]
@@ -93,7 +93,7 @@ export default function Home() {
       ">
         </div>
           {/* part-3 */}
-          <div className="w-[452px] h-[537px] max-[500px]:w-[200px] max-[500px]:h-[350px]  object-cover absolute top-[6194px] max-[1500px]:top-[5700px] max-[1100px]:top-[7300px] max-[767px]:top-[8300px] max-[370px]:top-[9900px] max-[500px]:top-[8900px]  right-[0]    
+          <div className="w-[452px] h-[537px] max-[800px]:w-[200px] max-[800px]:h-[350px]  object-cover absolute top-[6194px] max-[1500px]:top-[5700px] max-[1100px]:top-[7300px] max-[1000px]:top-[6300px] max-[830px]:top-[6800px]  max-[767px]:top-[8500px] max-[370px]:top-[9900px] max-[500px]:top-[9000px]  right-[0]    
           bg-[url(/group-250.png)] 
      bg-cover bg-center 
      blur-[10px]

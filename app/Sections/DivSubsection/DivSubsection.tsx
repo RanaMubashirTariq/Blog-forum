@@ -136,7 +136,7 @@ export default function DivSubsection () {
                   className="relative h-[469px] max-[1100px]:h-[369px] w-px bg-[#262626] max-[900px]:hidden"
                 />
               )}
-              <div className="w-full h-px bg-[#262626]"></div>
+              <div className="w-full h-px bg-[#262626] block min-[500px]:hidden"></div>
             </React.Fragment>
           ))}
         </div>
@@ -152,7 +152,7 @@ export default function DivSubsection () {
                   className="relative h-[469px] max-[1100px]:h-[369px] w-px bg-[#262626] max-[900px]:hidden"
                 />
               )}
-              <div className="w-full h-px bg-[#262626]"></div>
+              <div className="w-full h-px bg-[#262626] block min-[500px]:hidden"></div>
             </React.Fragment>
           ))}
         </div>
