@@ -61,7 +61,7 @@ export default function DivSubsection () {
     testimonial,
     index,
   }: { testimonial: (typeof testimonials)[0]; index: number }) => (
-    <div className="flex flex-col items-center gap-10 max-[767px]:gap-[25px] px-0  relative flex-1 grow">
+    <div className="flex flex-col items-center gap-10 max-[767px]:gap-[25px] px-0 py-20 max-[1500px]:py-15 max-[1100px]:py-10 max-[900px]:py-5 relative flex-1 grow">
       <div className="flex items-center justify-center gap-3 relative self-stretch w-full flex-[0_0_auto]">
         <Avatar className="w-[60px] h-[60px] max-[1500px]:w-12 max-[1500px]:h-12">
           <AvatarImage src={testimonial.profileImage} alt="Profile" />
@@ -95,9 +95,9 @@ export default function DivSubsection () {
           ))}
         </div>
 
-        <Card className="flex gap-2.5 pt-[50px] pb-[30px] px-[30px] max-[767px]:pb-5 max-[767px]:px-5 self-stretch w-full flex-[0_0_auto] mt-[-23px] z-0 bg-[#a29bfe2b] rounded-xl border border-solid border-[#262626] items-start relative">
+        <Card className="flex gap-2.5 pt-[50px] pb-[30px] px-[30px] max-[1100px]:pb-5 max-[1100px]:px-5 self-stretch w-full flex-[0_0_auto] mt-[-23px] z-0 bg-[#a29bfe2b] rounded-xl border border-solid border-[#262626] items-start relative">
           <CardContent className="p-0">
-            <div className="text-center relative text-white text-lg  max-[1500px]:text-base  max-[767px]:text-sm max-[767px]:leading-[24px] font-regular font-['Inter'] tracking-[0] leading-[27px]">
+            <div className="text-center relative text-white text-lg  max-[1500px]:text-base  max-[767px]:text-sm max-[767px]:leading-[24px] font-regular font-['Inter'] tracking-[0] leading-[27px] overflow-hidden text-ellipsis line-clamp-4">
               {testimonial.testimonial}
             </div>
           </CardContent>
@@ -125,20 +125,55 @@ export default function DivSubsection () {
         </Button>
       </header>
 
-      <div className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto] py-20 max-[1000px]:py-10">
-        <div className="grid grid-cols-3 max-[1020px]:grid-cols-2 max-[767px]:grid-cols-1   gap-[50px] max-[1300px]:gap-[30px] max-[1100px]:gap-[50px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  py-0 relative self-stretch w-full flex-[0_0_auto] border-b bordersolid border-[#262626]">
-          {testimonials.map((testimonial, index) => (
-            <React.Fragment key={index}>
-              <TestimonialCard testimonial={testimonial} index={index} />
-              {/* {index < 2 && (
+      <div className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex item-start max-[500px]:flex-col  max-[900px]:hidden max-[500px]:block    gap-[50px] max-[1300px]:gap-[30px] max-[1100px]:gap-[30px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  py-0 relative self-stretch w-full flex-[0_0_auto] max-[500px]:border-b-0 border-b bordersolid border-[#262626]">
+          {testimonials.slice(0,3).map((testimonial, index) => (
+            <React.Fragment key={index + 3}>
+              <TestimonialCard testimonial={testimonial} index={index + 3} />
+              {index < 2 && (
                 <Separator
                   orientation="vertical"
-                  className="relative h-full w-px bg-[#262626] rotate-[90deg]"
+                  className="relative h-[469px] max-[1100px]:h-[369px] w-px bg-[#262626] max-[900px]:hidden"
                 />
-              )} */}
+              )}
+              <div className="w-full h-px bg-[#262626]"></div>
             </React.Fragment>
           ))}
         </div>
+
+        {/* part-2 */}
+        <div className="flex item-start max-[500px]:flex-col  max-[900px]:hidden max-[500px]:block  gap-[50px] max-[1300px]:gap-[30px] max-[1100px]:gap-[30px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  py-0 relative self-stretch w-full flex-[0_0_auto] max-[500px]:border-b-0 border-b border-solid border-[#262626]">
+          {testimonials.slice(3,6).map((testimonial, index) => (
+            <React.Fragment key={index+3}>
+              <TestimonialCard testimonial={testimonial} index={index + 3} />
+              {index < 2 && (
+                <Separator
+                  orientation="vertical"
+                  className="relative h-[469px] max-[1100px]:h-[369px] w-px bg-[#262626] max-[900px]:hidden"
+                />
+              )}
+              <div className="w-full h-px bg-[#262626]"></div>
+            </React.Fragment>
+          ))}
+        </div>
+
+
+        {/* This part for mobile section */}
+
+        <div className="grid grid-cols-2  block min-[900px]:hidden max-[500px]:hidden  gap-[50px] max-[1300px]:gap-[30px] max-[1100px]:gap-[30px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  py-0 relative self-stretch w-full flex-[0_0_auto] border-b bordersolid border-[#262626]">
+          {testimonials.map((testimonial, index) => (
+            <React.Fragment key={index}>
+              <TestimonialCard testimonial={testimonial} index={index} />
+              {index < 2 && (
+                <Separator
+                  orientation="vertical"
+                  className="relative h-[469px] max-[1100px]:h-[369px]  w-px bg-[#262626] rotate-[90deg] max-[900px]:hidden"
+                />
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+
       </div>
     </section>
   );
