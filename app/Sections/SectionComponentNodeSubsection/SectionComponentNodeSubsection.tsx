@@ -100,7 +100,7 @@ export default function SectionComponentNodeSubsection  ()  {
 
       {/* Section two */}
     </div>
-    <div className="w-[851px] max-[1100px]:w-[650px] max-[767px]:w-[500px] max-[550px]:w-full h-auto relative max-[1100px]:z-10">
+    <div className="w-[851px] max-[1100px]:w-[650px] max-[767px]:w-[500px] max-[550px]:w-full max-[500px]:mt-[10px] h-auto relative max-[1100px]:z-10">
           <Card className=" rounded-[29px] border border-solid border-[#4f4f4f80] bg-transparent">
             <CardContent className="inline-flex items-center  max-[550px]:flex max-[550px]:flex-col max-[550px]:items-center gap-[35px] max-[1100px]:gap-5  max-[1500px]:px-[15px] px-[30px] py-0">
               {statisticsData.map((stat, index) => (
