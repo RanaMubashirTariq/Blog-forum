@@ -148,14 +148,14 @@ export default function Home() {
 
  {/* imge three  */}
 
- <div className="rotate-[180deg] w-[252px] h-[537px] max-[560px]:w-[152px] max-[560px]:h-[337px] bg-[radial-gradient(circle_at_center,_#2a0a3d_0%,_#0a0a0a_100%)] absolute top-[8146px] max-[1500px]:top-[7500px] max-[1100px]:top-[9600px] max-[1000px]:top-[8400px] max-[830px]:top-[9000px]  max-[560px]:top-[10800px]    left-[1670px] max-[1700px]:left-[1470px] max-[1500px]:left-[1130px] max-[1300px]:left-[1130px] max-[1100px]:left-[830px] max-[1000px]:left-[640px] max-[560px]:left-[480px]  max-[545px]:left-[460px] max-[460px]:left-[300px] max-[365px]:top-[11600px] max-[330px]:top-[12200px]     blur-[145px] z-10">
+ <div className="rotate-[180deg] w-[252px] h-[537px] max-[560px]:w-[152px] max-[560px]:h-[337px] bg-[radial-gradient(circle_at_center,_#2a0a3d_0%,_#0a0a0a_100%)] absolute top-[8146px] max-[1500px]:top-[7500px] max-[1100px]:top-[9600px] max-[1000px]:top-[8400px] max-[830px]:top-[9000px]  max-[560px]:top-[10800px]    left-[1670px] max-[1700px]:left-[1470px] max-[1500px]:left-[1130px] max-[1300px]:left-[1130px] max-[1100px]:left-[830px] max-[1000px]:left-[640px] max-[560px]:left-[480px]  max-[545px]:left-[460px] max-[460px]:left-[300px] max-[400px]:top-[11600px] max-[330px]:top-[12200px]     blur-[145px] z-10">
 
 </div>
 
 
 <img 
     src="/group-254.png" 
-    className="rotate-[180deg] inset-0 overflow-hidden w-[500px] h-[727px] object-contain mix-blend-light  absolute top-[8146px] max-[1500px]:top-[7500px] max-[1100px]:top-[9600px] max-[1000px]:top-[8400px] max-[830px]:top-[9000px] max-[560px]:top-[10800px]   left-[1420px] max-[1700px]:left-[1180px] max-[1700px]:h-[500px] max-[1500px]:left-[1030px] max-[1300px]:left-[860px] max-[1100px]:left-[610px] max-[1000px]:left-[540px] max-[860px]:left-[530px] max-[830px]:left-[500px] max-[800px]:left-[445px] max-[560px]:left-[280px]  max-[545px]:left-[260px]  max-[460px]:left-[250px]  max-[430px]:left-[240px] max-[420px]:left-[225px] max-[400px]:left-[200px] max-[380px]:left-[190px] max-[365px]:left-[170px] max-[350px]:left-[160px] max-[340px]:left-[140px] max-[365px]:top-[11600px]  max-[330px]:top-[12200px]    max-[1500px]:h-[432px] max-[1000px]:w-[400px] max-[1000px]:h-[332px]  max-[560px]:w-[300px] max-[560px]:h-[332px] max-[460px]:w-[200px] max-[460px]:h-[232px] " 
+    className="rotate-[180deg] inset-0 overflow-hidden w-[500px] h-[727px] object-contain mix-blend-light  absolute top-[8146px] max-[1500px]:top-[7500px] max-[1100px]:top-[9600px] max-[1000px]:top-[8400px] max-[830px]:top-[9000px] max-[560px]:top-[10800px]   left-[1420px] max-[1700px]:left-[1180px] max-[1700px]:h-[500px] max-[1500px]:left-[1030px] max-[1300px]:left-[860px] max-[1100px]:left-[610px] max-[1000px]:left-[540px] max-[860px]:left-[530px] max-[830px]:left-[500px] max-[800px]:left-[445px] max-[560px]:left-[280px]  max-[545px]:left-[260px]  max-[460px]:left-[250px]  max-[430px]:left-[240px] max-[420px]:left-[225px] max-[400px]:left-[200px] max-[380px]:left-[190px] max-[365px]:left-[170px] max-[350px]:left-[160px] max-[340px]:left-[140px] max-[400px]:top-[11600px]  max-[330px]:top-[12200px]    max-[1500px]:h-[432px] max-[1000px]:w-[400px] max-[1000px]:h-[332px]  max-[560px]:w-[300px] max-[560px]:h-[332px] max-[460px]:w-[200px] max-[460px]:h-[232px] " 
     alt="" 
   />
 
