@@ -147,7 +147,7 @@ export default function ContainerWrapperSubsection() {
                   </Link>
                 </div>
 
-                <p className="relative self-stretch font-['Inter'] font-normal text-[#98989a] text-lg max-[1500px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] tracking-[-0.54px] leading-[27px]">
+                <p className="relative self-stretch font-['Inter'] font-normal text-[#98989a] text-lg max-[1500px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] tracking-[-0.54px] leading-[27px] overflow-hidden text-ellipsis  line-clamp-2 max-[1100px]:line-clamp-3 max-[767px]:line-clamp-5">
                   {card.description}
                 </p>
               </CardContent>

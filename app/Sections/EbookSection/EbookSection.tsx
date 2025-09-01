@@ -106,7 +106,7 @@ export default function EbookSection() {
                 </p>
               </CardContent>
 
-              <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90 inline-flex max-[414px]:w-[100%] items-center gap-2.5 px-6 py-[18px]  relative flex-[0_0_auto] bg-[#a29bfe]/50 rounded-[10px] border border-solid border-[#262626] hover:bg-[#a29bfe50]/90 h-auto">
+              <Button className="z-11 cursor-pointer transform transition-transform duration-300 hover:scale-90 inline-flex max-[414px]:w-[100%] items-center gap-2.5 px-6 py-[18px]  relative flex-[0_0_auto] bg-[#a29bfe]/50 rounded-[10px] border border-solid border-[#262626] hover:bg-[#a29bfe50]/90 h-auto">
                 <span className="relative text-white text-lg max-[1500px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-normal font-['Inter'] tracking-[-3%] leading-[27px] whitespace-nowrap">
                   Preview
                 </span>

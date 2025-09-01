@@ -42,7 +42,7 @@ export default function FrameSubsection  ()  {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="bg-[#a29bfe2b] border-neutral-800 rounded-xl"
+              className="bg-[#a29bfe2b] border-neutral-800 rounded-xl hover:bg-[#a29bfe4b] transition-colors duration-300"
             >
               <CardContent className="p-10 max-[500px]:p-5 flex flex-col gap-5">
                 <h3 className="font-['Inter'] font-medium text-white text-2xl max-[1500px]:text-[20px] max-[767px]:text-lg max-[767px]:leading-[24px] tracking-[-3%] leading-[150%]">

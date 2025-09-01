@@ -107,7 +107,7 @@ export default function WhitepaperSection(){
                 </p>
               </CardContent>
 
-              <Button className="cursor-pointer transform transition-transform duration-300 hover:scale-90 max-[414px]:w-full inline-flex items-center gap-2.5 px-6 max-[767px]:px-[15px] max-[767px]:py-[12px] py-[18px] relative flex-[0_0_auto] bg-[#a29bfe]/50 rounded-[10px] border border-solid border-[#262626] hover:bg-[#a29bfe50]/90 h-auto">
+              <Button className="z-11 cursor-pointer transform transition-transform duration-300 hover:scale-90 max-[414px]:w-full inline-flex items-center gap-2.5 px-6 max-[767px]:px-[15px] max-[767px]:py-[12px] py-[18px] relative flex-[0_0_auto] bg-[#a29bfe]/50 rounded-[10px] border border-solid border-[#262626] hover:bg-[#a29bfe50]/90 h-auto">
                 <span className="relative text-white text-[18px] max-[1500px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-regular font-['Inter'] tracking-[-3%] leading-[27px] whitespace-nowrap">
                   Preview
                 </span>

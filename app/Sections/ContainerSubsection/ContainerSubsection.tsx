@@ -172,7 +172,7 @@ export default function ContainerSubsection  (){
             {blogPosts.map((post) => (
               <Card
                 key={post.id}
-                className="bg-[#a29bfe]/33 border-none rounded-[33px] max-[500px]:rounded-[20px] shadow-[0px_5.21px_7.81px_-2.6px_#10182808,0px_15.62px_20.83px_-5.21px_#10182814] overflow-hidden"
+                className="cursor-pointer bg-[#a29bfe]/33 border-none rounded-[33px] max-[500px]:rounded-[20px] shadow-[0px_5.21px_7.81px_-2.6px_#10182808,0px_15.62px_20.83px_-5.21px_#10182814] overflow-hidden"
               >
                 <CardContent className="p-[31.25px] max-[1300px]:p-[20px] flex flex-col gap-[41.67px] max-[1000px]:gap-[20px]">
                   {/* Image placeholder */}
@@ -203,7 +203,7 @@ export default function ContainerSubsection  (){
 
                         {/* Engagement metrics */}
                         <div className="flex items-start gap-[7.02px]">
-                          <div className="flex items-center justify-center gap-[2.81px] px-[11.23px] py-[5.61px] bg-[#a29bfe]24 rounded-[70.18px] border-[0.7px] border-solid border-[#a29bfe]">
+                          <div className="cursor-pointer flex items-center justify-center gap-[2.81px] px-[11.23px] py-[5.61px] hover:bg-[#a29bfe]/24 transition-color duration-300 rounded-[70.18px] border-[0.7px] border-solid border-[#a29bfe]">
                             <img
                               className="w-[16.84px] h-[16.84px]"
                               alt="Icon"
@@ -214,7 +214,7 @@ export default function ContainerSubsection  (){
                             </span>
                           </div>
 
-                          <div className="flex items-center justify-center gap-[2.81px] px-[11.23px] py-[5.61px] bg-[#a29bfe]24 rounded-[70.18px] border-[0.7px] border-solid border-[#a29bfe]">
+                          <div className="cursor-pointer flex items-center justify-center gap-[2.81px] px-[11.23px] py-[5.61px] hover:bg-[#a29bfe]/24 transition-color duration-300 rounded-[70.18px] border-[0.7px] border-solid border-[#a29bfe]">
                             <img
                               className="w-[16.84px] h-[16.84px]"
                               alt="Icon"
@@ -225,7 +225,7 @@ export default function ContainerSubsection  (){
                             </span>
                           </div>
 
-                          <div className="flex items-center justify-center gap-[2.81px] px-[11.23px] py-[5.61px] bg-[#a29bfe]/24 rounded-[70.18px] border-[0.7px] border-solid border-[#a29bfe]">
+                          <div className="cursor-pointer flex items-center justify-center gap-[2.81px] px-[11.23px] py-[5.61px] hover:bg-[#a29bfe]/24 transition-color duration-300 rounded-[70.18px] border-[0.7px] border-solid border-[#a29bfe]">
                             <img
                               className="w-[16.84px] h-[16.84px]"
                               alt="Icon"
