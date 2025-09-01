@@ -123,7 +123,7 @@ export default function ContainerSubsection  (){
   return (
     <section className="w-full relative">
       {/* Header Section */}
-      <div className="w-full bg-[#a29bfe]/14 py-[157px] max-[1700px]:py-[120px] max-[1500px]:py-[80px] max-[1000px]:py-10">
+      <div className="w-full bg-[#a29bfe]/14 py-[157px] max-[1700px]:py-[120px] max-[1500px]:py-[80px] max-[1000px]:py-10 z-20">
         <div className="mx-auto px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px] flex items-end justify-between max-[767px]:flex-col  gap-[150px]  max-[800px]:gap-[50px] max-[767px]:gap-[20px]">
           <div className="flex flex-col items-start justify-center gap-4 flex-1">
             <Badge className="bg-[#a29bfe]80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
@@ -141,8 +141,8 @@ export default function ContainerSubsection  (){
       </div>
 
       {/* Category Filter Section */}
-      <div className="w-full border-b border-solid border-[#262626] px-[162px] max-[1700px]:px-[50px] max-[767px]:px-[25px] py-[50px]">
-        <div className="z-11 flex items-center max-[1100px]:flex-wrap gap-5">
+      <div className="w-full border-b border-solid border-[#262626] px-[162px] max-[1700px]:px-[50px] max-[767px]:px-[25px] py-[50px] relative z-20">
+        <div className=" flex items-center max-[1100px]:flex-wrap gap-5">
           {categories.map((category) => (
             <Button
               key={category.id}
@@ -161,7 +161,7 @@ export default function ContainerSubsection  (){
       </div>
 
       {/* Blog Posts Grid */}
-      <div className="w-full px-[162px] py-[50px] relative max-[1700px]:px-[50px] max-[767px]:px-[25px]">
+      <div className="w-full px-[162px] py-[50px] relative max-[1700px]:px-[50px] max-[767px]:px-[25px] z-20">
         {/* Background blur elements */}
         <div className="absolute bottom-[173px] left-[0px] w-[161px] h-[373px] rounded-[80.5px/186.5px] blur-[212.6px] bg-[#a29bfe]">
           <div className="absolute top-[91px] left-[0px] w-[103px] h-[238px] rounded-[51.3px/119.09px] bg-[#ff30a0] blur-[212.6px]" />
@@ -273,6 +273,11 @@ export default function ContainerSubsection  (){
           </div>
         </div>
       </div>
+
+
+      <div 
+    className="z-0 rotate-[180deg] bg-[url(/frame-group.png)] bg-cover bg-left    w-[1200px] h-[1200px] object-cover   absolute top-[500px] max-[1700px]:top-[790px] max-[1500px]:top-[700px] max-[1000px]:top-[700px] max-[767px]:top-[800px]  max-[500px]:top-[880px]    right-0 max-[1700px]:-right-[20px] max-[1000px]:right-0  max-[1700px]:w-[700px] max-[1700px]:h-[1000px]  max-[1500px]:h-[800px] max-[1000px]:w-[500px] max-[1000px]:h-[600px] max-[767px]:w-[300px] max-[767px]:h-[500px]" 
+  />
     </section>
   );
 };

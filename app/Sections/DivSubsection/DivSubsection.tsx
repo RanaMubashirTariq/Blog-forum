@@ -61,7 +61,7 @@ export default function DivSubsection () {
     testimonial,
     index,
   }: { testimonial: (typeof testimonials)[0]; index: number }) => (
-    <div className="flex flex-col items-center gap-10 max-[767px]:gap-[25px] px-0 py-20 max-[1500px]:py-15 max-[1100px]:py-10 max-[900px]:py-5 relative flex-1 grow">
+    <div className="z-20 flex flex-col items-center gap-10 max-[767px]:gap-[25px] px-0 py-20 max-[1500px]:py-15 max-[1100px]:py-10 max-[900px]:py-5 relative flex-1 grow">
       <div className="flex items-center justify-center gap-3 relative self-stretch w-full flex-[0_0_auto]">
         <Avatar className="w-[60px] h-[60px] max-[1500px]:w-12 max-[1500px]:h-12">
           <AvatarImage src={testimonial.profileImage} alt="Profile" />
@@ -107,7 +107,7 @@ export default function DivSubsection () {
   );
 
   return (
-    <section className="flex flex-col w-full items-start relative ">
+    <section className="flex flex-col w-full items-start relative z-20">
       <header className="flex items-end max-[767px]:flex-col justify-between  gap-[150px]  max-[800px]:gap-[50px] max-[767px]:gap-[20px] px-[162px] max-[1700px]:px-[50px] max-[767px]:px-[25px] py-20 max-[1000px]:py-10 py-[120px] max-[1000px]:py-[40px] relative self-stretch w-full flex-[0_0_auto] bg-[#a29bfe]/24 border-t border-solid border-b border-solid border-[#262626]">
         <div className="flex flex-col items-start w-full gap-4">
           <Badge className="bg-[#a29bfe]/80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
@@ -125,7 +125,7 @@ export default function DivSubsection () {
         </Button>
       </header>
 
-      <div className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto]  z-20">
         <div className="flex item-start max-[500px]:flex-col  max-[900px]:hidden max-[500px]:block    gap-[50px] max-[1300px]:gap-[30px] max-[1100px]:gap-[30px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  py-0 relative self-stretch w-full flex-[0_0_auto] max-[500px]:border-b-0 border-b bordersolid border-[#262626]">
           {testimonials.slice(0,3).map((testimonial, index) => (
             <React.Fragment key={index + 3}>
@@ -175,6 +175,9 @@ export default function DivSubsection () {
         </div>
 
       </div>
+      <div 
+    className="z-0 rotate-[180deg] bg-[url(/frame-group.png)] bg-cover bg-left    w-[1200px] h-[1250px] object-cover   absolute top-[380px] max-[1500px]:top-[380px] max-[1100px]:top-[420px] max-[1000px]:top-[334px]  right-0  max-[1700px]:w-[700px] max-[1700px]:h-[1000px]  max-[1500px]:h-[800px] max-[1000px]:w-[500px] max-[1000px]:h-[600px] max-[767px]:w-[300px] max-[767px]:h-[500px]" 
+  />
     </section>
   );
 };

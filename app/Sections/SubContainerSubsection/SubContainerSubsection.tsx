@@ -26,7 +26,7 @@ export default function SubContainerSubsection  () {
 
   return (
     <section className="w-full max-[1050px]:py-[80px] max-[1000px]:py-[40px] px-[162px] max-[1000px]:py-[40px] max-[1700px]:px-[50px] max-[767px]:px-[25px] ">
-      <div className="flex max-[1050px]:flex-col flex-row gap-20 max-[1500px]:gap-23 max-[1300px]:gap-[91.5px] justify-between max-[1050px]:gap-12 max-[767px]:gap-5 ">
+      <div className="flex max-[1050px]:flex-col flex-row gap-20 max-[1500px]:gap-23 max-[1300px]:gap-[91.5px] justify-between max-[1050px]:gap-12 max-[767px]:gap-5 z-20 relative">
         <div className="flex flex-col items-start justify-center gap-[50px] max-[1000px]:gap-[30px] max-[767px]:gap-[20px]">
           <img className="w-20 h-20 max-[1000px]:w-15  max-[1000px]:h-15" alt="Icon" src="/icon-5.png" />
 
@@ -62,6 +62,11 @@ export default function SubContainerSubsection  () {
           </div>
         </div>
       </div>
+
+
+      <div 
+    className="z-0  bg-[url(/frame-group.png)] bg-cover bg-left    w-[1200px] h-[1200px] object-cover   absolute top-[1900px] max-[1700px]:top-[1950px] max-[1500px]:top-[1800px] max-[1100px]:top-[1700px]  max-[1000px]:top-[1450px] max-[767px]:top-[1700px] max-[545px]:top-[2000px] max-[500px]:top-[2200px] max-[350px]:top-[2300px]    left-0   max-[1700px]:w-[700px] max-[1700px]:h-[1000px]  max-[1500px]:h-[800px] max-[1000px]:w-[500px] max-[1000px]:h-[600px] max-[767px]:w-[300px] max-[767px]:h-[500px]" 
+  />
     </section>
   );
 };

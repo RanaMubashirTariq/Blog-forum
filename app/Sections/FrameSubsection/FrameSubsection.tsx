@@ -22,7 +22,7 @@ export default function FrameSubsection  ()  {
   ];
 
   return (
-    <section className="flex w-full items-center gap-20 max-[1050px]:flex-col max-[1050px]:items-start max-[1050px]:gap-12 max-[767px]:gap-5 max-[1050px]:py-[80px] max-[1000px]:py-[40px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  border-t border-solid border-[#262626]">
+    <section className="flex w-full items-center gap-20 max-[1050px]:flex-col max-[1050px]:items-start max-[1050px]:gap-12 max-[767px]:gap-5 max-[1050px]:py-[80px] max-[1000px]:py-[40px] px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px]  border-t border-solid border-[#262626] z-20 relative">
       <div className="inline-flex flex-col items-start justify-center gap-[50px] max-[1000px]:gap-[30px] max-[767px]:gap-[20px]">
         <img className="w-[92.38px] h-20 max-[1000px]:w-17  max-[1000px]:h-15" src='/icon-6.png' alt="Icon" />
 
