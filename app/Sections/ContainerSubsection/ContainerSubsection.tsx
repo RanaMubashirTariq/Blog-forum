@@ -142,7 +142,7 @@ export default function ContainerSubsection  (){
 
       {/* Category Filter Section */}
       <div className="w-full border-b border-solid border-[#262626] px-[162px] max-[1700px]:px-[50px] max-[767px]:px-[25px] py-[50px]">
-        <div className="flex items-center max-[1100px]:flex-wrap gap-5">
+        <div className="z-11 flex items-center max-[1100px]:flex-wrap gap-5">
           {categories.map((category) => (
             <Button
               key={category.id}
@@ -172,7 +172,7 @@ export default function ContainerSubsection  (){
             {blogPosts.map((post) => (
               <Card
                 key={post.id}
-                className="cursor-pointer bg-[#a29bfe]/33 border-none rounded-[33px] max-[500px]:rounded-[20px] shadow-[0px_5.21px_7.81px_-2.6px_#10182808,0px_15.62px_20.83px_-5.21px_#10182814] overflow-hidden"
+                className="z-11 cursor-pointer bg-[#a29bfe]/33 border-none rounded-[33px] max-[500px]:rounded-[20px] shadow-[0px_5.21px_7.81px_-2.6px_#10182808,0px_15.62px_20.83px_-5.21px_#10182814] overflow-hidden"
               >
                 <CardContent className="p-[31.25px] max-[1300px]:p-[20px] flex flex-col gap-[41.67px] max-[1000px]:gap-[20px]">
                   {/* Image placeholder */}
