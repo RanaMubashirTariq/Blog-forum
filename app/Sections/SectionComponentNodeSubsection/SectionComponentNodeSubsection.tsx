@@ -100,12 +100,12 @@ export default function SectionComponentNodeSubsection  ()  {
 
       {/* Section two */}
     </div>
-    <div className="w-[851px] max-[1100px]:w-[650px] max-[767px]:w-[500px] max-[550px]:w-full max-[500px]:mt-[10px] h-auto relative max-[1100px]:z-10">
+    <div className="w-[851px] max-[1300px]:w-[750px] max-[1100px]:w-[650px] max-[767px]:w-[500px] max-[550px]:w-full max-[500px]:mt-[10px] h-auto relative max-[1100px]:z-10">
           <Card className=" rounded-[29px] border border-solid border-[#4f4f4f80] bg-transparent">
-            <CardContent className="inline-flex items-center  max-[550px]:flex max-[550px]:flex-col max-[550px]:items-center gap-[35px] max-[1100px]:gap-5  max-[1500px]:px-[15px] px-[30px] py-0">
+            <CardContent className="inline-flex items-center  max-[550px]:flex max-[550px]:flex-col max-[550px]:items-center gap-[35px] max-[1300px]:gap-[20px] max-[1100px]:gap-5  max-[1500px]:px-[15px] px-[30px] py-0">
               {statisticsData.map((stat, index) => (
                 <React.Fragment key={index}>
-                  <div className="flex flex-col w-[225px] max-[1100px]:w-[200px] max-[767px]:w-[150px] gap-2.5 px-0 py-[50px] max-[1100px]:py-[30px] max-[767px]:py-5 items-start relative">
+                  <div className="flex flex-col w-[225px] max-[1300px]:w-[200px] max-[767px]:w-[150px] gap-2.5 px-0 py-[50px] max-[1100px]:py-[30px] max-[767px]:py-5 items-start relative">
                     <div className="relative font-['Inter'] font-semibold text-transparent text-[40px] max-[1500px]:text-[36px] max-[1000px]:text-[28px] max-[767px]:text-[24px] max-[767px]:leading-[24px]  text-center tracking-[-3%] leading-[150%]">
                       <span className="text-white ">
                         {stat.value}
@@ -135,7 +135,7 @@ export default function SectionComponentNodeSubsection  ()  {
           </div>
         </div>
             <img
-              className="absolute w-[1070px] max-[1500px]:w-[900px] max-[1500px]:h-[915px] max-[1100px]:h-[862px] max-[1300px]:w-[700px] max-[1000px]:w-[400px] max-[1000px]:h-[805px] max-[1000px]:top-[150px]  max-[800px]:h-[642px] h-[965px] max-[767px]:hidden top-0 right-0 z-0"
+              className="absolute w-[1070px] h-[965px] max-[1700px]:w-[850px] max-[1500px]:w-[725px] max-[1500px]:h-[932px] max-[1300px]:w-[650px] max-[1100px]:h-[862px]  max-[1000px]:w-[400px] max-[1000px]:h-[805px] max-[1000px]:top-[150px]  max-[800px]:h-[642px]  max-[767px]:hidden top-0 right-0 z-0"
               alt="Freepik assistant"
               src='/freepik-assistant.png'
             />
