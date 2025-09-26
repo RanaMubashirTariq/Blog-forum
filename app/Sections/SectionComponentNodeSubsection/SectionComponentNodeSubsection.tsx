@@ -135,7 +135,7 @@ export default function SectionComponentNodeSubsection  ()  {
           </div>
         </div>
             <img
-              className="absolute w-[1070px] h-[975px] max-[1700px]:w-[850px] max-[1500px]:w-[725px] max-[1500px]:h-[932px] max-[1300px]:w-[650px] max-[1100px]:h-[865px]  max-[1000px]:w-[400px] max-[1000px]:h-[805px] max-[1000px]:top-[150px]  max-[800px]:h-[642px]  max-[767px]:hidden top-0 right-0 z-0"
+              className="absolute w-[1070px] h-[975px] max-[1900px]:w-[850px] max-[1600px]:w-[725px] max-[1500px]:h-[932px] max-[1300px]:w-[650px] max-[1100px]:h-[865px]  max-[1000px]:w-[400px] max-[1000px]:h-[805px] max-[1000px]:top-[150px]  max-[800px]:h-[642px]  max-[767px]:hidden top-0 right-0 z-0"
               alt="Freepik assistant"
               src='/freepik-assistant.png'
             />

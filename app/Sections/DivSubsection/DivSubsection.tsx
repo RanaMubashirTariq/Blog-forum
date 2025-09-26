@@ -110,7 +110,7 @@ export default function DivSubsection () {
     <section className="flex flex-col w-full items-start relative z-20">
       <header className="flex items-end max-[767px]:flex-col justify-between  gap-[150px]  max-[800px]:gap-[50px] max-[767px]:gap-[20px] px-[162px] max-[1700px]:px-[50px] max-[767px]:px-[25px] py-20 max-[1000px]:py-10 py-[120px] max-[1000px]:py-[40px] relative self-stretch w-full flex-[0_0_auto] bg-[#a29bfe]/24 border-t border-solid border-b border-solid border-[#262626]">
         <div className="flex flex-col items-start w-full gap-4">
-          <Badge className="bg-[#a29bfe]/80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
+          <Badge className="bg-[#a29bfe]/50 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
               What Our Readers Say
           </Badge>
 

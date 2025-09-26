@@ -8,7 +8,7 @@ export default function FrameWrapperSubsection  ()  {
     <section className="w-full flex items-center  bg-[#a29bfe]/24 relative px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px] py-[157px] max-[1700px]:py-[120px] max-[1500px]:py-[80px] max-[1000px]:py-10">
       <div className="flex w-full items-end justify-between max-[500px]:flex-col max-[500px]:gap-[20px] max-[767px]:gap-[50px]">
         <div className="flex flex-col w-full items-start gap-4 relative">
-          <Badge className="bg-[#a29bfe]/80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto ">
+          <Badge className="bg-[#a29bfe]/50 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto ">
               Unlock the Power of
           </Badge>
 

@@ -9,7 +9,7 @@ export default function DivWrapperSubsection  ()  {
     <section className="flex flex-col w-full items-start relative">
       <header className="flex items-center justify-between gap-[270px] max-[1100px]:gap-[150px]  max-[1000px]:gap-[50px] max-[800px]:flex-col max-[800px]:items-end max-[767px]:gap-[20px] px-[162px] max-[1700px]:px-[50px] max-[767px]:px-[25px] py-[120px] max-[1000px]:py-10 relative self-stretch w-full flex-[0_0_auto] bg-[#a29bfe]/24 border-t border-t border-b border-solid border-[#262626]">
         <div className="flex flex-col items-start justify-center gap-4 relative flex-1 self-stretch grow">
-          <Badge className="bg-[#a29bfe]/80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
+          <Badge className="bg-[#a29bfe]/50 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
               Your Gateway to In-Depth Information
           </Badge>
 

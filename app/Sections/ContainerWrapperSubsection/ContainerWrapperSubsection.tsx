@@ -102,7 +102,7 @@ export default function ContainerWrapperSubsection() {
 
           <div className="flex flex-col items-start justify-center gap-[30px] relative flex-1 grow">
             <div className="flex flex-col items-start justify-center gap-4 relative self-stretch w-full flex-[0_0_auto]">
-              <Badge className="bg-[#a29bfe]/80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-0.60px] leading-[30px] px-2.5 py-1.5 h-auto">
+              <Badge className="bg-[#a29bfe]/50 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-0.60px] leading-[30px] px-2.5 py-1.5 h-auto">
                 Learn, Connect, and Innovate
               </Badge>
 
@@ -136,7 +136,7 @@ export default function ContainerWrapperSubsection() {
                     <Button
                       variant="ghost"
                       size="icon"
-                      className="relative flex-[0_0_auto] p-0 w-13 h-13 max-[1500px]:w-10 max-[1500px]:h-10 bg-[#a29bfe50] rounded-[50%] hover:bg-[#a29bfe80] transition-colors duration-300"
+                      className="relative flex-[0_0_auto] p-0 w-13 h-13 max-[1500px]:w-10 max-[1500px]:h-10 bg-[#a29bfe]/50 rounded-[50%] hover:bg-[#a29bfe]/80 transition-colors duration-300"
                     >
                       <img
                         className="relative flex-[0_0_auto] w-6 h-6 max-[1500px]:w-5 max-[1500px]:h-5"

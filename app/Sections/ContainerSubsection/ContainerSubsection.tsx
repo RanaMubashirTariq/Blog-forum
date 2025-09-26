@@ -126,7 +126,7 @@ export default function ContainerSubsection  (){
       <div className="w-full bg-[#a29bfe]/14 py-[157px] max-[1700px]:py-[120px] max-[1500px]:py-[80px] max-[1000px]:py-10 z-20">
         <div className="mx-auto px-[162px]  max-[1700px]:px-[50px] max-[767px]:px-[25px] flex items-end justify-between max-[767px]:flex-col  gap-[150px]  max-[800px]:gap-[50px] max-[767px]:gap-[20px]">
           <div className="flex flex-col items-start justify-center gap-4 flex-1">
-            <Badge className="bg-[#a29bfe]80 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
+            <Badge className="bg-[#a29bfe]/50 text-white text-xl max-[1500px]:text-lg max-[1000px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] font-medium font-['Inter'] tracking-[-3%] leading-[30px] px-2.5 py-1.5 h-auto">
               A Knowledge Treasure Trove
             </Badge>
             <h2 className="font-Kumbh font-medium text-white text-[58px] max-[1500px]:text-[40px] max-[1000px]:text-[36px] max-[767px]:text-[28px] tracking-[-3%] leading-[130%]">
@@ -150,7 +150,7 @@ export default function ContainerSubsection  (){
               onClick={() => setActiveCategory(category.id)}
               className={`flex-1 px-6 py-[30px] max-[767px]:px-4 max-[767px]:py-[15px] rounded-lg border border-solid border-[#262626] h-auto ${
                 activeCategory === category.id
-                  ? "bg-[#a29bfe]/80 hover:bg-[#a29bfe80]/90 cursor-pointer transform transition-transform duration-300 hover:scale-90 text-white font-medium"
+                  ? "bg-[#a29bfe]/50 hover:bg-[#a29bfe80]/80 cursor-pointer transform transition-transform duration-300 hover:scale-90 text-white font-medium"
                   : "bg-transparent text-[#98989a] cursor-pointer transform transition-transform duration-300 hover:scale-90 font-normal"
               } font-['Inter'] text-lg max-[1500px]:text-base max-[767px]:text-sm max-[767px]:leading-[24px] tracking-[-3%] leading-[150%]`}
             >
