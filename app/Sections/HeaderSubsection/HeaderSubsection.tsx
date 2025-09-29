@@ -130,7 +130,7 @@ export default function HeaderSubsection() {
           />
 
           {/* Desktop Navigation */}
-          <NavigationMenu className="hidden min-[1020px]:block">
+          <NavigationMenu className="hidden min-[1020px]:block ">
             <NavigationMenuList className="inline-flex items-center gap-10 rounded-xl">
               {navigationItems.map((item, index) => {
                 const isActive = mounted && activeId === item.id;
@@ -176,7 +176,8 @@ export default function HeaderSubsection() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="block  min-[1020px]:hidden w-full bg-black border-t border-[#262626]">
+          <div className="block  min-[1020px]:hidden w-[90%]   h-[100vh] bg-black  mt-[20px]">
+              <div className=" h-[70vh]  pl-5  rounded-[20px] border border-[#a29bfe]/20">
             <ul className="flex flex-col gap-4 p-4">
               {navigationItems.map((item, index) => (
                 <li key={index}>
@@ -195,6 +196,7 @@ export default function HeaderSubsection() {
                 </li>
               ))}
             </ul>
+          </div>
           </div>
         )}
       </header>
