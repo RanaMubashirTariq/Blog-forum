@@ -172,7 +172,7 @@ export default function ContainerSubsection  (){
             {blogPosts.map((post) => (
               <Card
                 key={post.id}
-                className="z-11 cursor-pointer bg-[#a29bfe]/33 border-none rounded-[33px] max-[500px]:rounded-[20px] shadow-[0px_5.21px_7.81px_-2.6px_#10182808,0px_15.62px_20.83px_-5.21px_#10182814] overflow-hidden"
+                className="z-11 cursor-pointer bg-[#a29bfe]/33 hover:bg-[#a29bfe4b] transition-colors duration-300 border-none rounded-[33px] max-[500px]:rounded-[20px] shadow-[0px_5.21px_7.81px_-2.6px_#10182808,0px_15.62px_20.83px_-5.21px_#10182814] overflow-hidden"
               >
                 <CardContent className="p-[31.25px] max-[1300px]:p-[20px] flex flex-col gap-[41.67px] max-[1000px]:gap-[20px]">
                   {/* Image placeholder */}
