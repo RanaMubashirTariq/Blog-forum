@@ -138,11 +138,11 @@ export default function HeaderSubsection() {
                   <NavigationMenuItem key={index}>
                     <NavigationMenuLink
                       asChild
-                      className={`relative font-['Inter'] text-lg max-[1500px]:text-base leading-[27px]
+                      className={`relative font-['Inter'] tracking-[0px] text-lg max-[1500px]:text-base leading-[27px]
                       ${
                         isActive
                           ? "font-medium text-white bg-[#a29bfe2b] px-6 py-3.5 rounded-[10px] border border-[#333333]"
-                          : "text-[#7e7e81] hover:text-white"
+                          : "text-[#7e7e81] hover:text-white font-regular"
                       }`}
                     >
                       <Link
