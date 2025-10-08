@@ -88,3 +88,21 @@ html{
   scroll-behavior: smooth;
   scroll-padding: 150px;
 }
+
+
+/* Hide scrollbar but keep scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll; /* ensure scroll works */
+  height: 100%;
+  scrollbar-width: none;    
+  scroll-behavior: smooth;
+  scroll-padding: 150px;    /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+
